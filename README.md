@@ -375,13 +375,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 👨‍💻 作者 | Author
-
-**Your Name**  
-- GitHub: [@your-username](https://github.com/your-username)
-
----
-
 ## 🙏 致谢 | Acknowledgments
 
 - 感谢所有为这个项目提供建议和反馈的用户
