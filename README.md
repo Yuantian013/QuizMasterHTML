@@ -20,6 +20,21 @@
 
 **QuizMaster (Smart Quiz System)** is a feature-rich, beautifully designed web-based quiz system specifically designed for theoretical knowledge learning. The system supports multiple learning modes, intelligent error tracking, and real-time learning statistics to help users efficiently master key knowledge points.
 
+### 📸 界面预览 | Screenshots
+
+<div align="center">
+
+#### 学习模式 | Study Mode
+![Study Mode](screenshots/study-mode.png)
+
+#### 背题模式 | Practice Mode
+![Practice Mode](screenshots/practice-mode.png)
+
+#### 错题库 | Wrong Questions Bank
+![Wrong Bank](screenshots/wrong-bank.png)
+
+</div>
+
 ### ✨ 核心特性 | Key Features
 
 - 📖 **学习模式** - 浏览题库，自动显示正确答案，支持快速导航和搜索
@@ -88,6 +103,8 @@ python 启动服务器.py
 
 ### 1. 📚 学习模式 | Study Mode
 
+![Study Mode Interface](screenshots/study-mode.png)
+
 - **浏览所有题目**：按顺序浏览完整题库，自动显示正确答案
 - **智能导航**：支持上一题/下一题，随机跳转，搜索定位
 - **进度跟踪**：实时显示当前题号和总体学习进度
@@ -96,6 +113,8 @@ python 启动服务器.py
 **使用场景**：初次学习、系统复习、快速查找
 
 ### 2. 🎯 背题模式 | Practice Mode
+
+![Practice Mode Interface](screenshots/practice-mode.png)
 
 - **智能出题算法**：
   - 30%概率优先从错题库出题
@@ -120,6 +139,8 @@ python 启动服务器.py
 **使用场景**：考前练习、巩固复习、模拟考试
 
 ### 3. 📝 错题库 | Wrong Questions Bank
+
+![Wrong Bank Interface](screenshots/wrong-bank.png)
 
 - **自动收集**：答错或点击"显示答案"的题目自动加入
 - **智能管理**：
@@ -174,6 +195,11 @@ QuizMaster/
 ├── 启动服务器.py           # Python本地服务器启动脚本
 ├── 脚本.py                 # 命令行版刷题脚本（可选）
 ├── README.md               # 项目说明文档
+├── LICENSE                 # MIT许可证
+├── screenshots/            # 项目截图
+│   ├── study-mode.png      # 学习模式界面截图
+│   ├── practice-mode.png   # 背题模式界面截图
+│   └── wrong-bank.png      # 错题库界面截图
 └── WeChatMiniProgram/      # 微信小程序版本（可选）
     └── ...
 ```
@@ -347,7 +373,14 @@ console.log(JSON.stringify(backup));
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+---
 
+## 👨‍💻 作者 | Author
+
+**Your Name**  
+- GitHub: [@your-username](https://github.com/your-username)
+
+---
 
 ## 🙏 致谢 | Acknowledgments
 
