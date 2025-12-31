@@ -347,14 +347,7 @@ console.log(JSON.stringify(backup));
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
 
-## 👨‍💻 作者 | Author
-
-**Your Name**  
-- GitHub: [@your-username](https://github.com/your-username)
-
----
 
 ## 🙏 致谢 | Acknowledgments
 
