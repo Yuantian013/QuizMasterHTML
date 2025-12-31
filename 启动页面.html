@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>刷题系统</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            max-width: 500px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        .instructions {
+            text-align: left;
+            margin: 30px 0;
+            line-height: 1.8;
+            color: #333;
+        }
+        .instructions ol {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .instructions li {
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background: #5568d3;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 刷题系统</h1>
+        <div class="highlight">
+            <strong>⚠️ 重要提示：</strong><br>
+            请按照以下步骤添加到主屏幕
+        </div>
+        <div class="instructions">
+            <strong>安装步骤：</strong>
+            <ol>
+                <li>点击Safari浏览器底部的<strong>"分享"</strong>按钮（方框+箭头图标）</li>
+                <li>向下滚动，找到<strong>"添加到主屏幕"</strong></li>
+                <li>点击"添加"</li>
+                <li>完成！现在可以在主屏幕上使用了</li>
+            </ol>
+        </div>
+        <a href="刷题系统-单文件版.html" class="btn">打开刷题系统</a>
+        <div style="margin-top: 30px; color: #666; font-size: 0.9em;">
+            <p>如果按钮无法打开，请：</p>
+            <p>1. 确保HTML文件在同一文件夹</p>
+            <p>2. 或直接在Safari地址栏输入文件路径</p>
+        </div>
+    </div>
+</body>
+</html>
